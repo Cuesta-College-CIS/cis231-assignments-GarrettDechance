@@ -16,5 +16,8 @@ public class RngMax {
         else if(z > y && z > x){
             System.out.println("Greatest number: " + z);
         }
+        else {
+            System.out.println("Greatest number cannot be determined");
+        }
     }
 }
