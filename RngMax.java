@@ -2,9 +2,9 @@ import java.util.Random;
 public class RngMax {
     public static void main(String [] args){
         Random randGen = new Random();
-        int x = randGen.nextInt(10);
-        int y = randGen.nextInt(10);
-        int z = randGen.nextInt(10); //Variables block
+        int x = randGen.nextInt(100);
+        int y = randGen.nextInt(100);
+        int z = randGen.nextInt(100); //Variables block
         
         System.out.println("Generated Random Numbers: " + x + ", " + y + ", " + z);
         if(x > y && x > z){
