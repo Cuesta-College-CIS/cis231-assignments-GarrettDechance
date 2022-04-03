@@ -27,7 +27,7 @@ public class quiz2 {
         }
 
         System.out.print(Arrays.toString(outArray));
-
+        scnr.close();
 	}
 
 }
