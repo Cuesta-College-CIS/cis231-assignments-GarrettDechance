@@ -1,0 +1,28 @@
+Errors:
+    Primary error - I had been practicing C# previously, and one of the extensions caused every .java file in vscode to fail to run. It only took me about 2 hours to figure this out and how to correct it.
+    Secondary error - constant inputMismatchExceptions when trying to scnr.nextInt() Integers
+    Tertiary error - spending far too long trying to make it perfect
+    Additional errors - file not found when trying to pull the data to the program using java.io.file
+
+    Definitely learned a lot, but was very frustrated by this quiz
+
+Elaboration:
+    - Course: fairly straight-forward, build a standard constructor using the 4 arguments as the elements within
+        - toString: I thought it worked but I can't figure out why it wont print the way it does in the slides. I've been on this for hours, and I don't think I can make it any better than this
+        the toString() method concatenates a string with the variables from the course, but doesn't work with the ArrayList correctly.
+    -Student:
+        - constructor, again, was fairly straight forward, uses the arguments as the elements within
+        - getTotalCredits() increments through the ArrayList and sums the credits to the variable totalCred
+        - toString() I could not get it to print without the brackets, I tried multiple different fixes, but I simply could not correct it. The method I wrote concatenates the Student elements and uses an escape sequence to 
+        shift the classes to a new line
+    -Main
+        -the lecture helped a lot with the fillupStudent() method, using a scanner to scan the test data file, it assigns the first few inputs to variables to store until we are prepared to create the Student object
+        then moves on to create the classes from the scanned data, utilizing both scnr.next() and scnr.nextInt() to pull the strings and integers, respectively. the loop continues until the number of classes for the student 
+        is reached, then creates the student and assigns it the newly created ArrayList. This process repeats as long as the scanner can see data on the next line, via scnr.hasNextLine().
+        -printStudent(ArrayList) uses a for loop that iterates until it reaches a number of iterations equal to the size of the array list, in order to print each student and their classes using various methods,
+        including .get, .toString, and getTotalCredits.
+        -printStudent(ArrayList, sid) uses another for loop to iterate through, comparing the iterated students' sid to the sid input by the user, and uses break to end the loop once the student is found
+        -findStudent(ArrayList) uses a similar for loop to iterate through and keep track of the highest number of credits taken by a student, held by the maxCred variable, and indexed with maxCredIdx, then prints the student with
+        the highest number of credits
+        -main was a part of the slideshow and more-or-less given to us, but it is very important, as it calls all of the necessary methods to be executed
+    
