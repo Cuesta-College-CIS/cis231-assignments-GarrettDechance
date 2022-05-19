@@ -1,0 +1,14 @@
+Errors:
+  when calling getTotalCredits after adding score in, it was producing the sum of the scores. after attempting to fix this by setting it equal to credits, 
+  it returns null. Temporarily fixed by adding credits as Integer to Person. I am open to suggestions on how to properly correct this.
+
+Elaboration:
+    Reused most code from Quiz 4. Change notes:
+    - Course: Create and implement the CourseActivity interface, override the inherited methods, added constructor.
+    - Student: Created abstract class Person and made student an extension of it.
+        -- toString: added a series of .replace methods to remove the irregular format.
+    -Main: Adjusted while loop to allow for new data, i.e score, dob.
+
+    I struggled with this exam despite now understanding the previous quiz. I genuinely don't know why the things that still aren't working
+    are continuing to not work.
+    

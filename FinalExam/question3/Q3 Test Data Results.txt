@@ -1,0 +1,29 @@
+Student: 1001  John
+[Course: CIS01 C++ 3 A+
+, Course: CIS02 Python 3 A0
+, Course: CIS231 Java 3 A+
+]
+Total Credits: 9
+
+Student: 1002  Kurt
+[Course: CIS01 C++ 3 A0
+, Course: CIS02 Python 3 A0
+, Course: CIS232 Java2 3 A+
+, Course: CNT02 Cisco 3 A0
+]
+Total Credits: 12
+
+Student: 1003  Kim
+[Course: CIS01 C++ 3 A0
+, Course: CIS232 Java2 3 A+
+]
+Total Credits: 6
+
+Student with the greatest credits:
+Student: 1002  Kurt
+[Course: CIS01 C++ 3 A0
+, Course: CIS02 Python 3 A0
+, Course: CIS232 Java2 3 A+
+, Course: CNT02 Cisco 3 A0
+]
+Total Credits: 12
