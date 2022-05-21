@@ -1,10 +1,11 @@
-package FinalExam.question3;
+// package FinalExam.question3;
 
 public abstract class Person {
-    String name;
+	String name;
 	String dob;
-    Integer credits;
-    Person() {
+	// Integer credits;
+
+	Person() {
 		name = "";
 		dob = "";
 	}
@@ -14,7 +15,7 @@ public abstract class Person {
 		dob = d;
 	}
 
-    abstract void printPerson();
+	abstract void printPerson();
 
 	public String toString() {
 		return "Name\t" + name + "\t DOB:\t" + dob + "\t";
